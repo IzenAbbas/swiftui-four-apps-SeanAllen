@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isNight = false
+
     var body: some View {
         ZStack {
-            backgroundView(topColor: .blue, bottomColor: Color("lightBlue"))
+            backgroundView(isNight: $isNight)
             VStack {
                 cityName(name: "Cupertino, CA")
-                mainStatusSymbol(imageName: "cloud.sun.fill", temperature: 76)
+                mainStatusSymbol(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temperature: 76)
                 HStack(spacing: 20) {
                     WeatherDayView(dayofWeek: "TUE",
                                    imageName: "cloud.sun.fill",
@@ -32,9 +34,13 @@ struct ContentView: View {
                                    temperature: 25)
                 }
                 Spacer()
-                WeatherButton(title: "Change Day Time",
-                              textColor: .blue,
-                              backgroundColor: .white)
+                Button {
+                    isNight.toggle()
+                } label: {
+                    WeatherButton(title: "Change Day Time",
+                                  textColor: .blue,
+                                  backgroundColor: .white)
+                }
                 Spacer()
             }
         }
@@ -69,16 +75,15 @@ struct WeatherDayView: View {
 }
 
 struct backgroundView: View {
-    let topColor: Color
-    let bottomColor: Color
+    @Binding var isNight: Bool
 
     var body: some View {
         LinearGradient(
             colors: [
-                topColor,
-                topColor.opacity(0.75),
-                topColor.opacity(0.5),
-                bottomColor
+                isNight ? .black : .blue,
+                isNight ? .black.opacity(0.75) : .blue.opacity(0.75),
+                isNight ? .black.opacity(0.5) : .blue.opacity(0.5),
+                isNight ? .gray : Color("lightBlue")
             ],
             startPoint: .topLeading,
             endPoint: .bottomTrailing
