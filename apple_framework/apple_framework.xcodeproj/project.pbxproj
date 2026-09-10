@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C3F8BA973051970000607782 /* weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C8E03C3052E2CA00FB576E /* apple_framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apple_framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C3F8BA993051970000607782 /* weather */ = {
+		C3C8E03E3052E2CA00FB576E /* apple_framework */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = weather;
+			path = apple_framework;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3F8BA943051970000607782 /* Frameworks */ = {
+		C3C8E0393052E2CA00FB576E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C3F8BA8E3051970000607782 = {
+		C3C8E0333052E2CA00FB576E = {
 			isa = PBXGroup;
 			children = (
-				C3F8BA993051970000607782 /* weather */,
-				C3F8BA983051970000607782 /* Products */,
+				C3C8E03E3052E2CA00FB576E /* apple_framework */,
+				C3C8E03D3052E2CA00FB576E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C3F8BA983051970000607782 /* Products */ = {
+		C3C8E03D3052E2CA00FB576E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3F8BA973051970000607782 /* weather.app */,
+				C3C8E03C3052E2CA00FB576E /* apple_framework.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3F8BA963051970000607782 /* weather */ = {
+		C3C8E03B3052E2CA00FB576E /* apple_framework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3F8BAA23051970100607782 /* Build configuration list for PBXNativeTarget "weather" */;
+			buildConfigurationList = C3C8E0473052E2CB00FB576E /* Build configuration list for PBXNativeTarget "apple_framework" */;
 			buildPhases = (
-				C3F8BA933051970000607782 /* Sources */,
-				C3F8BA943051970000607782 /* Frameworks */,
-				C3F8BA953051970000607782 /* Resources */,
+				C3C8E0383052E2CA00FB576E /* Sources */,
+				C3C8E0393052E2CA00FB576E /* Frameworks */,
+				C3C8E03A3052E2CA00FB576E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C3F8BA993051970000607782 /* weather */,
+				C3C8E03E3052E2CA00FB576E /* apple_framework */,
 			);
-			name = weather;
+			name = apple_framework;
 			packageProductDependencies = (
 			);
-			productName = weather;
-			productReference = C3F8BA973051970000607782 /* weather.app */;
+			productName = apple_framework;
+			productReference = C3C8E03C3052E2CA00FB576E /* apple_framework.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C3F8BA8F3051970000607782 /* Project object */ = {
+		C3C8E0343052E2CA00FB576E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					C3F8BA963051970000607782 = {
+					C3C8E03B3052E2CA00FB576E = {
 						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
-			buildConfigurationList = C3F8BA923051970000607782 /* Build configuration list for PBXProject "weather" */;
+			buildConfigurationList = C3C8E0373052E2CA00FB576E /* Build configuration list for PBXProject "apple_framework" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C3F8BA8E3051970000607782;
+			mainGroup = C3C8E0333052E2CA00FB576E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C3F8BA983051970000607782 /* Products */;
+			productRefGroup = C3C8E03D3052E2CA00FB576E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3F8BA963051970000607782 /* weather */,
+				C3C8E03B3052E2CA00FB576E /* apple_framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C3F8BA953051970000607782 /* Resources */ = {
+		C3C8E03A3052E2CA00FB576E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3F8BA933051970000607782 /* Sources */ = {
+		C3C8E0383052E2CA00FB576E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C3F8BAA03051970100607782 /* Debug */ = {
+		C3C8E0453052E2CB00FB576E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		C3F8BAA13051970100607782 /* Release */ = {
+		C3C8E0463052E2CB00FB576E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		C3F8BAA33051970100607782 /* Debug */ = {
+		C3C8E0483052E2CB00FB576E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -261,13 +261,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.weather;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -279,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		C3F8BAA43051970100607782 /* Release */ = {
+		C3C8E0493052E2CB00FB576E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,13 +293,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.weather;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -315,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3F8BA923051970000607782 /* Build configuration list for PBXProject "weather" */ = {
+		C3C8E0373052E2CA00FB576E /* Build configuration list for PBXProject "apple_framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3F8BAA03051970100607782 /* Debug */,
-				C3F8BAA13051970100607782 /* Release */,
+				C3C8E0453052E2CB00FB576E /* Debug */,
+				C3C8E0463052E2CB00FB576E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3F8BAA23051970100607782 /* Build configuration list for PBXNativeTarget "weather" */ = {
+		C3C8E0473052E2CB00FB576E /* Build configuration list for PBXNativeTarget "apple_framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3F8BAA33051970100607782 /* Debug */,
-				C3F8BAA43051970100607782 /* Release */,
+				C3C8E0483052E2CB00FB576E /* Debug */,
+				C3C8E0493052E2CB00FB576E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C3F8BA8F3051970000607782 /* Project object */;
+	rootObject = C3C8E0343052E2CA00FB576E /* Project object */;
 }
