@@ -12,7 +12,7 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            backgroundView(isNight: $isNight)
+            backgroundView(isNight: isNight)
             VStack {
                 cityName(name: "Cupertino, CA")
                 mainStatusSymbol(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temperature: 76)
@@ -38,8 +38,8 @@ struct ContentView: View {
                     isNight.toggle()
                 } label: {
                     WeatherButton(title: "Change Day Time",
-                                  textColor: .blue,
-                                  backgroundColor: .white)
+                                  textColor: .white,
+                                  backgroundColor: .purple.opacity(0.8))
                 }
                 Spacer()
             }
@@ -75,20 +75,23 @@ struct WeatherDayView: View {
 }
 
 struct backgroundView: View {
-    @Binding var isNight: Bool
+    var isNight: Bool
 
     var body: some View {
-        LinearGradient(
-            colors: [
-                isNight ? .black : .blue,
-                isNight ? .black.opacity(0.75) : .blue.opacity(0.75),
-                isNight ? .black.opacity(0.5) : .blue.opacity(0.5),
-                isNight ? .gray : Color("lightBlue")
-            ],
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
-        .ignoresSafeArea()
+//        LinearGradient(
+//            colors: [
+//                isNight ? .black : .blue,
+//                isNight ? .black.opacity(0.75) : .blue.opacity(0.75),
+//                isNight ? .black.opacity(0.5) : .blue.opacity(0.5),
+//                isNight ? .gray : Color("lightBlue")
+//            ],
+//            startPoint: .topLeading,
+//            endPoint: .bottomTrailing
+//        )
+//        .ignoresSafeArea()
+        ContainerRelativeShape()
+            .fill((isNight ? Color.black : Color.blue).gradient)
+            .ignoresSafeArea()
     }
 }
 
